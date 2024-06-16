@@ -3,9 +3,11 @@ import Botao from '../Botao'
 import Campo from '../Campo'
 import ListaSuspensa from '../ListaSuspensa'
 import './formulario.css'
+import { v4 as uuidv4 } from 'uuid'
 
 const Formulario = ({ aoCadastrar, times, cadastrarTime}) => {
-
+  
+    const [id, setId] = useState(uuidv4())
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')
     const [imagem, setImagem] = useState('')
@@ -16,16 +18,18 @@ const Formulario = ({ aoCadastrar, times, cadastrarTime}) => {
     const aoSubmeter = (evento) => {
         evento.preventDefault()
         aoCadastrar({
+            id,
             nome,
             cargo,
             imagem,
             time
         })
 
-        setImagem("")
+        setId(uuidv4())
         setNome("")
         setCargo("")
         setTime("")
+        setImagem("")
     }
 
     return (
@@ -48,6 +52,7 @@ const Formulario = ({ aoCadastrar, times, cadastrarTime}) => {
                     obrigatorio={true}
                     label='Imagem' 
                     placeholder='Informe o endereço da imagem '
+                    valor={imagem}
                     aoAlterado={valor => setImagem(valor)}/>
                 <ListaSuspensa 
                     obrigatorio={true}

@@ -1,10 +1,10 @@
 ### Projeto Trophy, valorize melhor seu funcionário do mês com o Trophy 🏆
 #### Fique a vontade para navegar, em caso de dúvidas estou disponível 24/7 para você 🫵
 
-
-![Captura de tela 2024-06-14 100604](https://github.com/Vineco77/Trophy/assets/157416457/b6b59b83-aa81-4d74-8869-87695e755985)
-
-![Captura de tela 2024-06-14 100624](https://github.com/Vineco77/Trophy/assets/157416457/7223429f-74de-4c63-b4eb-0d7ab29e6b8f)
+<div>
+    <img src='/imagens/captura1.png'>
+    <img src='/imagens/captura2.png'>
+</div>
 
 
 #### Link para o Site 🎯
