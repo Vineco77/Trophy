@@ -2,8 +2,8 @@
 #### Fique a vontade para navegar, em caso de dúvidas estou disponível 24/7 para você 🫵
 
 <div>
-    <img src='/imagens/captura1.png'/>
-    <img src='/imagens/captura2.png'/>
+    <img src='./public/imagens/captura1.png'/>
+    <img src='./public/imagens/captura2.png'/>
 </div>
 
 
